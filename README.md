@@ -38,7 +38,7 @@
     * http://www.w3schools.com/TAgs/att_input_pattern.asp
     * http://www.regular-expressions.info/tutorial.html
     * https://regex101.com/
-  * If you have time also make some CSS for the input fields (modify  ss/main.css)
+  * If you have time also make some CSS for the input fields (modify  css/main.css)
 
 ### Task B
 1. Open task_b.html in editor
