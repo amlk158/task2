@@ -16,11 +16,29 @@
 </head>
 
 <body>
-    <h1>Form validation JavaScript</h1>
 
-    <form>
-        <!-- your input elements here -->
-    </form>
+
+    <div class="container">
+        <h1>Form validation JavaScript</h1>
+        <form class="form">
+            <input class="input-node" type="text" name="firstname" placeholder="Firstname">
+            <div class="invalid-feedback"></div>
+            <input class="input-node" type="text" name="lastname" placeholder="Lastname">
+            <div class="invalid-feedback"></div>
+            <input class="input-node" type="text" name="email" placeholder="Email">
+            <div class="invalid-feedback"></div>
+            <input class="input-node" type="text" name="phone" placeholder="Phone number">
+            <div class="invalid-feedback"></div>
+            <input class="input-node" type="text" name="address" placeholder="Address">
+            <div class="invalid-feedback"></div>
+            <input class="input-node" type="text" name="postalcode" placeholder="Postal code">
+            <div class="invalid-feedback"></div>
+            <input class="input-node" type="password" name="password" placeholder="Password">
+            <div class="invalid-feedback"></div>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+        <p class="valid-message"></p>
+    </div>
     
     <script src="js/main.js"></script>
 </body>

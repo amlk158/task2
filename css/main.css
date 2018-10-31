@@ -57,8 +57,49 @@ textarea {
    ========================================================================== */
 
 
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    text-align: center;
+}
+.container {
+    width: 40%;
+    margin: 0 auto;
+}
+.input-node {
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    border: 1px solid #e91e63;
+    width: 90%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-radius: 30px;
+}
 
+.input-node:focus {
+  outline: none;
+    width: 100%;
+}
+.btn {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    background-color: #3f51b5;
+    color: #fff;
+    font-weight: 500;
+    width: 50%;
+    border-radius: 30px;
+}
 
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
 
 
 
